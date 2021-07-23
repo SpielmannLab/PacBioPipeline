@@ -1,0 +1,4 @@
+SAMPLE_DIR: "data/run1/"
+SAMPLES:
+    - "HG002"
+REFERENCE: "data/hg38/hg38.fa"

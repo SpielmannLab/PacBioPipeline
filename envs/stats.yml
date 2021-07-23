@@ -1,0 +1,11 @@
+name: BamVcfStats
+channel:
+    - bioconda
+    - conda-forge
+    - defaults
+dependencies:
+    - python=3.7.3
+    - samtools=1.13.0
+    - gnuplot=5.0.4
+    - bcftools=1.13-0
+    - matlibplot=3.4.2
