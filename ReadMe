@@ -9,9 +9,10 @@ Pipeline for processing PacBio data (*subreads.bam) with PacBio SMRT command lin
 Download and install SMRT Link from PacBio.
 
 ```
-wget -P <INSTALL_DIR> https://downloads.pacbcloud.com/public/software/installers/smrtlink_10.1.0.119588.zip 
+wget -P <INSTALL_DIR> https://downloads.pacbcloud.com/public/software/installers/smrtlink_10.1.0.119588.zip
+cd <INSTALL_DIR>
 unzip smrtlink_*.zip
-smrtlink_*/smrtlink_*.run --rootdir smrtlink --smrttools-only
+smrtlink_*.run --rootdir smrtlink --smrttools-only
 ```
 
 Make sure you run in an environment with snakemake version >= 5 < 6 and conda installed.
